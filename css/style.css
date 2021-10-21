@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #000;
+  color: #333;
+  font-family: 'Quicksand', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-box {
+  width: 480px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+ #quote-box .quote-text {
+  font-size: 36px;
+  font-weight: bold;
+}
+ #quote-box .quote-text .fa-quote-left {
+  font-size: 22px;
+  vertical-align: top;
+}
+ #quote-box .quote-text .fa-quote-right {
+  font-size: 22px;
+  vertical-align: bottom;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 20px;
+  padding: 20px 0px 20px 20px;
+}
+
+.buttons {
+  display: flex;
+  border: 0px solid black;
+  font-size: 18px;
+  justify-content: space-between;
+}
+ .buttons .button {
+  outline: none;
+  padding: 5px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+}
+ .buttons #new-quote {
+  float: right;
+  height: 40px;
+  width: 100px;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+}
+ .buttons :hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+ 
+
+footer {
+   color: white;
+   text-align: center;
+   font-size: 14px;
+   padding: 10px;
+}
+ footer a {
+   color: #fff;
+}
