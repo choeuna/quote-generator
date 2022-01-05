@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +9,7 @@
 body {
   background-color: #000;
   color: #333;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -24,23 +23,23 @@ body {
   padding: 20px;
   border-radius: 4px;
 }
- #quote-box .quote-text {
+#quote-box .quote-text {
   font-size: 36px;
   font-weight: bold;
 }
- #quote-box .quote-text .fa-quote-left {
+#quote-box .quote-text i.fa-quote-left {
   font-size: 22px;
   vertical-align: top;
 }
- #quote-box .quote-text .fa-quote-right {
+#quote-box .quote-text i.fa-quote-right {
   font-size: 22px;
   vertical-align: bottom;
 }
 
 .quote-author {
   text-align: right;
-  font-size: 20px;
-  padding: 20px 0px 20px 20px;
+  font-size: 18px;
+  padding: 30px 0px 30px 30px;
 }
 
 .buttons {
@@ -49,7 +48,7 @@ body {
   font-size: 18px;
   justify-content: space-between;
 }
- .buttons .button {
+.buttons .button {
   outline: none;
   padding: 5px;
   height: 25px;
@@ -59,25 +58,26 @@ body {
   text-decoration: none;
   color: white;
 }
- .buttons #new-quote {
+.buttons #new-quote {
   float: right;
   height: 40px;
   width: 100px;
   border: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
- .buttons :hover {
+.buttons :hover {
   opacity: 0.8;
   cursor: pointer;
 }
- 
 
 footer {
-   color: white;
-   text-align: center;
-   font-size: 14px;
-   padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
 }
- footer a {
-   color: #fff;
+footer a {
+  color: #FFF;
 }
+
+/*# sourceMappingURL=style.css.map */
